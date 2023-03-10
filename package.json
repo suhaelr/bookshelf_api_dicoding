@@ -1,0 +1,38 @@
+{
+  "name": "bookshelf_api",
+  "version": "1.0.0",
+  "description": "aplikasi restapi bookshelf by suhaelr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [
+    "nodejs",
+    "js"
+  ],
+  "author": "Suhael Rizqullah",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhaelr/bookshelf_api_dicoding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suhaelr/bookshelf_api_dicoding/issues"
+  },
+  "homepage": "https://github.com/suhaelr/bookshelf_api_dicoding#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.16"
+  }
+}
